@@ -1,0 +1,19 @@
+/* src/pages/client/Loja.css */
+.loja-hero { background:var(--verde-escuro);padding:56px 0 48px;position:relative;overflow:hidden;margin-bottom:32px; }
+.loja-hero .container { position:relative;z-index:1; }
+.loja-hero h1 { font-family:var(--font-display);font-size:52px;color:#fff;line-height:1.1;margin-bottom:14px; }
+.loja-hero h1 em { color:#a8f0c8;font-style:italic; }
+.loja-hero p  { font-size:16px;color:rgba(255,255,255,.72);max-width:380px; }
+.hero-blob { position:absolute;border-radius:50%;background:rgba(255,255,255,.05);pointer-events:none; }
+.hero-blob-1 { width:420px;height:420px;top:-160px;right:-80px; }
+.hero-blob-2 { width:220px;height:220px;bottom:-90px;right:220px; }
+
+.loja-filtros { display:flex;align-items:center;gap:16px;margin-bottom:24px; }
+.filtros-scroll { display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;flex:1; }
+.filtros-scroll::-webkit-scrollbar { display:none; }
+.filtro-btn { padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--white);font-family:var(--font-body);font-size:13px;font-weight:500;color:var(--text-muted);cursor:pointer;white-space:nowrap;transition:all .15s; }
+.filtro-btn:hover { border-color:var(--verde);color:var(--verde); }
+.filtro-btn.ativo { background:var(--verde);border-color:var(--verde);color:#fff; }
+
+.loja-center { display:flex;flex-direction:column;align-items:center;gap:16px;padding:80px 0;color:var(--text-muted); }
+@media(max-width:768px) { .loja-hero h1 { font-size:34px; } }

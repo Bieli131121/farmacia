@@ -1,0 +1,13 @@
+/* src/pages/client/Confirmacao.css */
+.conf { padding:60px 24px;display:flex;justify-content:center; }
+.conf-card { max-width:520px;width:100%;display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center;padding:40px; }
+.conf-card h1 { font-family:var(--font-display);font-size:30px; }
+.conf-card p  { color:var(--text-muted); }
+.conf-id { background:var(--creme);border-radius:var(--radius-sm);padding:14px 24px;display:flex;flex-direction:column;align-items:center;gap:4px;width:100%; }
+.conf-id span { font-size:12px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.5px; }
+.conf-id strong { font-size:22px;font-family:monospace;letter-spacing:2px; }
+.conf-steps { display:flex;flex-direction:column;gap:14px;width:100%;text-align:left; }
+.conf-step { display:flex;align-items:center;gap:14px;background:var(--creme);padding:14px;border-radius:var(--radius-sm); }
+.conf-step b { display:block;font-size:14px;margin-bottom:2px; }
+.conf-step span { font-size:12px;color:var(--text-muted); }
+.conf-aviso { font-size:13px;color:var(--text-muted);background:var(--creme-dark);padding:12px 16px;border-radius:var(--radius-sm);width:100%; }

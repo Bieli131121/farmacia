@@ -1,0 +1,12 @@
+/* src/pages/admin/AdminPedidos.css */
+.adm-ped { padding:28px 28px 60px; }
+.adm-ped h1 { font-family:var(--font-display);font-size:26px;display:flex;align-items:center;gap:8px;margin-bottom:4px; }
+
+.ped-filtros { display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px; }
+.filtro-btn { padding:7px 14px;border-radius:20px;border:1.5px solid var(--border);background:var(--white);font-family:var(--font-body);font-size:13px;font-weight:500;color:var(--text-muted);cursor:pointer;display:flex;align-items:center;gap:6px;transition:all .15s; }
+.filtro-btn:hover { border-color:var(--verde);color:var(--verde); }
+.filtro-btn.ativo { background:var(--verde);border-color:var(--verde);color:#fff; }
+.filtro-count { background:rgba(0,0,0,.12);color:inherit;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:700; }
+.filtro-btn.ativo .filtro-count { background:rgba(255,255,255,.25); }
+
+.status-select { border:none;cursor:pointer;font-family:var(--font-body);outline:none;appearance:none;-webkit-appearance:none;padding:4px 10px; }

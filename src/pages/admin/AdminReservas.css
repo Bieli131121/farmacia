@@ -1,0 +1,3 @@
+/* src/pages/admin/AdminReservas.css */
+.adm-res { padding: 28px 28px 60px; }
+.adm-res h1 { font-family: var(--font-display); font-size: 26px; display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
