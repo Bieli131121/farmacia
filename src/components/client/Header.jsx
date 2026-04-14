@@ -23,7 +23,6 @@ export default function Header() {
     <header className="hdr">
       <div className="hdr-top">
         <span>🏪 Retire na farmácia em até 2h após confirmação do pedido</span>
-        <Link to="/admin/login">Área administrativa →</Link>
       </div>
 
       <div className="hdr-main container">
