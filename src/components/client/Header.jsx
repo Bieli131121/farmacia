@@ -28,10 +28,11 @@ export default function Header() {
 
       <div className="hdr-main container">
         <Link to="/" className="hdr-logo">
-          <div className="logo-icon"><Pill size={18} /></div>
-          <div>
-            <div className="logo-name">FarmaVida</div>
-            <div className="logo-sub">Saúde &amp; Bem-estar</div>
+          <div className="logo-badge">
+            <span className="logo-badge-text">Farma &amp; Farma</span>
+          </div>
+          <div className="logo-sub-wrap">
+            <div className="logo-sub-name">Farmácia do Sílvio</div>
           </div>
         </Link>
 

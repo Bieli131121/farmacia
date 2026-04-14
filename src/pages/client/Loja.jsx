@@ -58,7 +58,8 @@ export default function Loja() {
       {/* Hero */}
       <section className="loja-hero">
         <div className="container">
-          <h1>Sua saúde em<br/><em>boas mãos</em></h1>
+          <div className="loja-hero-badge">Farma &amp; Farma</div>
+          <h1>Farmácia do Sílvio</h1>
           <p>Reserve online e retire em até 2h.<br/>PIX ou cartão pela Stone Pagamentos.</p>
         </div>
         <div className="hero-blob hero-blob-1"/>

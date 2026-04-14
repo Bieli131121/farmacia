@@ -1,10 +1,10 @@
 /* src/components/admin/AdminLayout.css */
 .admin-wrap { display:flex;min-height:100vh; }
 
-.admin-sidebar { width:230px;flex-shrink:0;background:var(--verde-escuro);display:flex;flex-direction:column;padding:0; }
+.admin-sidebar { width:230px;flex-shrink:0;background:#7a0000;display:flex;flex-direction:column;padding:0; }
 
 .admin-brand { display:flex;align-items:center;gap:10px;padding:22px 20px 20px;border-bottom:1px solid rgba(255,255,255,.1); }
-.admin-brand-icon { width:32px;height:32px;background:var(--verde-mid);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;flex-shrink:0; }
+.admin-brand-badge { width:36px;height:36px;background:var(--verde);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:13px;flex-shrink:0; }
 .admin-brand-name { font-family:var(--font-display);font-size:16px;color:#fff; }
 .admin-brand-sub  { font-size:10px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.5px; }
 

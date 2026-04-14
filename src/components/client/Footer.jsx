@@ -8,10 +8,9 @@ export default function Footer() {
       <div className="container footer-grid">
         <div>
           <div className="footer-logo">
-            <div className="footer-logo-icon"><Pill size={16}/></div>
-            <span>FarmaVida</span>
+            <div className="footer-logo-badge">Farma &amp; Farma</div>
           </div>
-          <p>Sua farmácia de confiança.<br/>Saúde e bem-estar para toda a família.</p>
+          <p>Farmácia do Sílvio.<br/>Saúde e bem-estar para toda a família.</p>
         </div>
         <div>
           <h4>Atendimento</h4>

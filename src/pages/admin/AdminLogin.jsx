@@ -29,8 +29,8 @@ export default function AdminLogin() {
     <div className="adm-login">
       <div className="adm-login-card">
         <div className="adm-login-brand">
-          <div className="adm-login-icon"><Pill size={22}/></div>
-          <h1>FarmaVida</h1>
+          <div className="adm-login-badge">Farma &amp; Farma</div>
+          <h1>Farmácia do Sílvio</h1>
           <p>Área administrativa</p>
         </div>
 

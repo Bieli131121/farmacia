@@ -2,17 +2,18 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --verde:        #1a6b4a;
-  --verde-escuro: #0f4530;
-  --verde-claro:  #e8f5ee;
-  --verde-mid:    #2d9068;
-  --creme:        #faf7f2;
-  --creme-dark:   #f0ebe0;
+  /* Paleta Farma & Farma */
+  --verde:        #D0111A;
+  --verde-escuro: #8B0000;
+  --verde-claro:  #fde8e9;
+  --verde-mid:    #e8282f;
+  --creme:        #f7f7f7;
+  --creme-dark:   #eeeeee;
   --text:         #1a1a1a;
   --text-muted:   #6b7280;
-  --border:       #e2ddd6;
+  --border:       #e0e0e0;
   --white:        #ffffff;
-  --danger:       #dc2626;
+  --danger:       #8B0000;
   --success:      #059669;
   --warning:      #d97706;
   --pix:          #32bcad;

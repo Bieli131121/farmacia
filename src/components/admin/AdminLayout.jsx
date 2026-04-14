@@ -24,9 +24,9 @@ export default function AdminLayout() {
     <div className="admin-wrap">
       <aside className="admin-sidebar">
         <div className="admin-brand">
-          <div className="admin-brand-icon"><Pill size={16}/></div>
+          <div className="admin-brand-badge">F&amp;F</div>
           <div>
-            <div className="admin-brand-name">FarmaVida</div>
+            <div className="admin-brand-name">Farma &amp; Farma</div>
             <div className="admin-brand-sub">Painel Admin</div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 /* src/pages/client/Loja.css */
 .loja-hero { background:var(--verde-escuro);padding:56px 0 48px;position:relative;overflow:hidden;margin-bottom:32px; }
 .loja-hero .container { position:relative;z-index:1; }
-.loja-hero h1 { font-family:var(--font-display);font-size:52px;color:#fff;line-height:1.1;margin-bottom:14px; }
-.loja-hero h1 em { color:#a8f0c8;font-style:italic; }
+.loja-hero-badge { display:inline-block;background:var(--verde);color:#fff;font-family:var(--font-display);font-size:22px;font-weight:700;padding:6px 18px;border-radius:8px;margin-bottom:14px; }
+.loja-hero h1 { font-family:var(--font-display);font-size:42px;color:#fff;line-height:1.15;margin-bottom:12px; }
 .loja-hero p  { font-size:16px;color:rgba(255,255,255,.72);max-width:380px; }
 .hero-blob { position:absolute;border-radius:50%;background:rgba(255,255,255,.05);pointer-events:none; }
 .hero-blob-1 { width:420px;height:420px;top:-160px;right:-80px; }
